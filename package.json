@@ -1,0 +1,30 @@
+{
+  "name": "tradebot",
+  "version": "0.0.1",
+  "description": "A Lambda serverless trading bot",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violinmoksha/tradebot.git"
+  },
+  "keywords": [
+    "lambda",
+    "alpaca",
+    "serverless"
+  ],
+  "author": "Paul Yeager",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/violinmoksha/tradebot/issues"
+  },
+  "homepage": "https://github.com/violinmoksha/tradebot#readme",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^1.4.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
